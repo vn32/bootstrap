@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+	<title>Introduction of Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+</head>
+<body>
+<!--
+Bootstrap 4 is the newest version of Bootstrap, which is the most popular HTML, CSS, and 
+JavaScript framework for developing responsive, mobile-first websites.
+.table-dark adds black background to the table
+we can use contextual classes to color the table
+  The .thead-dark class adds a black background to table headers,
+  and the .thead-light class adds a grey background to table headers:
+  The .table-sm class makes the table smaller by cutting cell padding in half:
+-->
+<div class="container-fluid">
+	<div class="jumbotron">
+		<h1>Table 1</h1>
+	</div>
+	<table class="table table-hover table-striped table-bordered table-sm">
+		<thead class="thead-dark">
+			<tr>
+				<th>S.No</th>
+				<th>Name</th>
+				<th>Course</th>
+				<th>email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="table-primary">
+				<td>1</td>
+				<td>kohli</td>
+				<td>sports</td>
+				<td>kohli@gmail.com</td>
+			</tr>
+			<tr class="table-success">
+				<td>2</td>
+				<td>joseph</td>
+				<td>cs351</td>
+				<td>rohit@gmail.com</td>
+			</tr>
+			<tr class="table-danger">
+				<td>3</td>
+				<td>maria</td>
+				<td>me402</td>
+				<td>shetty@gmail.com</td>
+			</tr>
+			<tr class="table-info">
+				<td>4</td>
+				<td>akash</td>
+				<td>ee201</td>
+				<td>dossely@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<div class="jumbotron">
+		<h1>Table 2</h1>
+	</div>
+  <h2>Responsive Table</h2>
+  <p>The .table-responsive class creates a responsive table which will scroll horizontally on screens that are less than 992px wide (if needed). When viewing on anything larger than 992px, there is no difference:</p>                                                                                      
+  
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+          <th>City</th>
+          <th>Country</th>
+          <th>Sex</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Anna</td>
+          <td>Pitt</td>
+          <td>35</td>
+          <td>New York</td>
+          <td>USA</td>
+          <td>Female</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>
